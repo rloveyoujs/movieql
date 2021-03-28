@@ -1,0 +1,26 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "description": "movie api with graphql",
+  "author": {
+    "name": "rloveyoujs",
+    "email": "rloveyoujs@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rloveyoujs/movieql.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "apollo-server": "^2.22.1",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
